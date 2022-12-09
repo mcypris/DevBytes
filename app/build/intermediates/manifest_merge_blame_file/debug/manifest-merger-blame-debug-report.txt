@@ -67,16 +67,23 @@
 46            </intent-filter>
 47        </activity>
 48
-49        <provider
-49-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\marti\.gradle\caches\transforms-2\files-2.1\fbf646b3ac46620e2668c79e73c5afde\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-50            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-50-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\marti\.gradle\caches\transforms-2\files-2.1\fbf646b3ac46620e2668c79e73c5afde\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-51            android:authorities="com.example.android.devbyteviewer.lifecycle-process"
-51-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\marti\.gradle\caches\transforms-2\files-2.1\fbf646b3ac46620e2668c79e73c5afde\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-52            android:exported="false"
-52-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\marti\.gradle\caches\transforms-2\files-2.1\fbf646b3ac46620e2668c79e73c5afde\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-53            android:multiprocess="true" />
-53-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\marti\.gradle\caches\transforms-2\files-2.1\fbf646b3ac46620e2668c79e73c5afde\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-54    </application>
-55
-56</manifest>
+49        <service
+49-->[androidx.room:room-runtime:2.1.0-alpha06] C:\Users\marti\.gradle\caches\transforms-2\files-2.1\1997c0c7dadc05e4d218839f13e6ea5c\room-runtime-2.1.0-alpha06\AndroidManifest.xml:23:9-25:40
+50            android:name="androidx.room.MultiInstanceInvalidationService"
+50-->[androidx.room:room-runtime:2.1.0-alpha06] C:\Users\marti\.gradle\caches\transforms-2\files-2.1\1997c0c7dadc05e4d218839f13e6ea5c\room-runtime-2.1.0-alpha06\AndroidManifest.xml:24:13-74
+51            android:exported="false" />
+51-->[androidx.room:room-runtime:2.1.0-alpha06] C:\Users\marti\.gradle\caches\transforms-2\files-2.1\1997c0c7dadc05e4d218839f13e6ea5c\room-runtime-2.1.0-alpha06\AndroidManifest.xml:25:13-37
+52
+53        <provider
+53-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\marti\.gradle\caches\transforms-2\files-2.1\fbf646b3ac46620e2668c79e73c5afde\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+54            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+54-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\marti\.gradle\caches\transforms-2\files-2.1\fbf646b3ac46620e2668c79e73c5afde\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+55            android:authorities="com.example.android.devbyteviewer.lifecycle-process"
+55-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\marti\.gradle\caches\transforms-2\files-2.1\fbf646b3ac46620e2668c79e73c5afde\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+56            android:exported="false"
+56-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\marti\.gradle\caches\transforms-2\files-2.1\fbf646b3ac46620e2668c79e73c5afde\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+57            android:multiprocess="true" />
+57-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\marti\.gradle\caches\transforms-2\files-2.1\fbf646b3ac46620e2668c79e73c5afde\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+58    </application>
+59
+60</manifest>
